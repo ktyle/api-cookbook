@@ -8,4 +8,5 @@ jobs:
     with:
       environment_name: cookbook-dev
       artifact_name: book-zip-${{ github.event.number }}
+    secrets: inherit
       # Other input options are possible, see ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml
